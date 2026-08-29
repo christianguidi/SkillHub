@@ -1,272 +1,320 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport=width=device-width, initial-scale=1.0">
-        <title>SkillHub, plateforme de formations en ligne</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport=width=device-width, initial-scale=1.0" />
+    <title>SkillHub, plateforme de formations en ligne</title>
+  </head>
 
-    <body>
-        <header>
-            <!--
+  <body>
+    <header>
+      <!--
             ====================================
             ZONE 1  Entête de index.html reprise
             ====================================
             -->
-            <nav>
-                <ul>
-                    <li><a href="/index.html" target="_blank">Accueil</a></li>
-                    <li><a href="#" target="_blank">Formations</a></li>
-                    <li><a href="#" target="_blank">Formateurs</a></li>
-                    <li><a href="#" target="_blank">Tarifs</a></li>
-                    <li><a href="#" target="_blank">Contact</a></li>
+      <nav>
+        <ul>
+          <li><a href="/index.html" target="_blank">Accueil</a></li>
+          <li><a href="#" target="_blank">Formations</a></li>
+          <li><a href="#" target="_blank">Formateurs</a></li>
+          <li><a href="#" target="_blank">Tarifs</a></li>
+          <li><a href="#" target="_blank">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-                </ul>
-            </nav>
-        </header>
-
-        <main>
-            <!--
+    <main>
+      <!--
             ==================================
                    ZONE 2: fil d'ariane
             ==================================
             -->
-            <section>
-                <nav>
-                    <ol>
-                        <li><a href="#" target="_blank">Accueil > </a></li>
-                        <li><a href="#" target="_blank">Formations > </a></li>
-                        <li>Développeur Symfony</li>
-                    </ol>
-                </nav>
-            </section>
+      <section>
+        <nav>
+          <ol>
+            <li><a href="/index.html" target="_blank">Accueil > </a></li>
+            <li><a href="#" target="_blank">Formations > </a></li>
+            <li>Développeur Symfony</li>
+          </ol>
+        </nav>
+      </section>
 
-            <section>
-                <!--
+      <section>
+        <!--
                 ====================================
                 ZONE 3: Présentation de la formation
                 ====================================
                 -->
-                <h1>Développeur Symfony</h1>
+        <h1>Développeur Symfony</h1>
 
-                <p>
-                    Le développeur Symfony conçoit et développe des applications web modernes, performantes et sécurisées.
-                    <br>
-                    Il maîtrise PHP, Symfony, les bases de données et les bonnes pratiques tu développement web.
-                    <br>
-                    Il crée des fonctionnalités adaptées aux besoins des utilisateurs et des entreprises.
-                    <br>
-                    Son expertise garantit des applications évolutives, fiables et faciles à maintenir.
-                </p>
+        <p>
+          Le développeur Symfony conçoit et développe des applications web
+          modernes, performantes et sécurisées.
+          <br />
+          Il maîtrise PHP, Symfony, les bases de données et les bonnes pratiques
+          tu développement web.
+          <br />
+          Il crée des fonctionnalités adaptées aux besoins des utilisateurs et
+          des entreprises.
+          <br />
+          Son expertise garantit des applications évolutives, fiables et faciles
+          à maintenir.
+        </p>
 
-                <ul>
-                    <li>Durée : 5 mois</li>
-                    <li>Niveau requis : 0</li>
-                    <li>Format : En ligne & en présentiel</li>
-                    <li>Prix: 150000 F CFA </li>
-                    <li>Prochaine session : 2027</li>
-                </ul>
+        <ul>
+          <li>Durée : 5 mois</li>
+          <li>Niveau requis : 0</li>
+          <li>Format : En ligne & en présentiel</li>
+          <li>Prix: 150000 F CFA</li>
+          <li>Prochaine session : 2027</li>
+        </ul>
 
-                <video controls width="500" poster="/images/presentation-poster.jpg">
-                    <source src="/videos/presentation.webm"/>
-                    <source src="/videos/presentation.mp4"/>
-                    Votre navigateur ne prend pas en charge la lecture de cette vidéo
-                </video>
-            </section>
+        <video controls width="500" poster="/images/presentation-poster.jpg">
+          <source src="/videos/presentation.webm" />
+          <source src="/videos/presentation.mp4" />
+          Votre navigateur ne prend pas en charge la lecture de cette vidéo
+        </video>
+      </section>
 
-            <!--
+      <!--
             ===============================
              ZONE 4: Programme pédagogique
             ===============================
             -->
 
-            <section>
-                <ol>
-                    <li>Fondations du développement Web
-                        <ol>
-                            <li>Structure d'une page avec HTML5</li>
-                            <li>Mise en forme et responsive design avec CSS3</li>
-                            <li>Base de JavaScript et manipulation du DOM</li>
-                            <li>Gestion de version avec Git et collaboration sur Github</li>
-                        </ol>
-                    </li>
-                    <li>Programmation orientée objet avec PHP et gestion des données
-                        <ol>
-                            <li>Initiation à la programmation PHP puis évolution vers l'orientée objet en PHP</li>
-                            <li>Design Paterns courants en PHP</li>
-                            <li>Modélisation et requêtes SQL avec une base de données relationnelles</li>
-                            <li>Introduction à doctrine ORM</li>
-                        </ol>
-                    </li>
-                    <li>Développement avec le framework Symfony
-                        <ol>
-                            <li>Architecture Symfony routing, contrôleurs, services</li>
-                            <li>Templating avec Twig et gestion des formulaires</li>
-                            <li>Authentification, sécurité et gestion des rôles</li>
-                            <li>Création d'API REST avec Symfony</li>
-                        </ol>
-                    </li>
-                    <li>Tests unitaires et déploiement
-                        <ol>
-                            <li>Tests automatisés (PHP Unit) et qualité de code</li>
-                            <li>Conteneurisation de l'application avec Docker</li>
-                            <li>Intégration et déploiement</li>
-                        </ol>
-                    </li>
-                </ol>
-            </section>
+      <section>
+        <h2>Cursus de la formation</h2>
+        <ol>
+          <li>
+            Fondations du développement Web
+            <ol>
+              <li>Structure d'une page avec HTML5</li>
+              <li>Mise en forme et responsive design avec CSS3</li>
+              <li>Base de JavaScript et manipulation du DOM</li>
+              <li>Gestion de version avec Git et collaboration sur Github</li>
+            </ol>
+          </li>
+          <li>
+            Programmation orientée objet avec PHP et gestion des données
+            <ol>
+              <li>
+                Initiation à la programmation PHP puis évolution vers l'orientée
+                objet en PHP
+              </li>
+              <li>Design Paterns courants en PHP</li>
+              <li>
+                Modélisation et requêtes SQL avec une base de données
+                relationnelles
+              </li>
+              <li>Introduction à doctrine ORM</li>
+            </ol>
+          </li>
+          <li>
+            Développement avec le framework Symfony
+            <ol>
+              <li>Architecture Symfony routing, contrôleurs, services</li>
+              <li>Templating avec Twig et gestion des formulaires</li>
+              <li>Authentification, sécurité et gestion des rôles</li>
+              <li>Création d'API REST avec Symfony</li>
+            </ol>
+          </li>
+          <li>
+            Tests unitaires et déploiement
+            <ol>
+              <li>Tests automatisés (PHP Unit) et qualité de code</li>
+              <li>Conteneurisation de l'application avec Docker</li>
+              <li>Intégration et déploiement</li>
+            </ol>
+          </li>
+        </ol>
+      </section>
 
-            <!--
+      <!--
             =======================================
             ZONE 5: Tableau comparatif des formules
             =======================================
             -->
 
-            <section>
-                <table>
-                    <caption>
-                        Détails des formules disponibles
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th scope="row">Formules</th>
-                            <th scope="row">Prix</th>
-                            <th scope="row">Durée</th>
-                            <th scope="row">Accès au contenus</th>
-                            <th scope="row">Suivi personnalisé</th>
-                            <th scope="row">Certificat</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="col">Essentiel</th>
-                            <td>45000</td>
-                            <td>6 semaines</td>
-                            <td>12 mois</td>
-                            <td>Non inclus</td>
-                            <td>Attestation de suivi</td>
-                        </tr>
-                        <tr>
-                            <th scope="col">Pro</th>
-                            <td>90000</td>
-                            <td>3 mois</td>
-                            <td>Illimité à vie</td>
-                            <td>2 séances mensuelles</td>
-                            <td>Certificat disponible</td>
-                        </tr>
-                        <tr>
-                            <th scope="col">Entreprise</th>
-                            <td>150000</td>
-                            <td>5 mois</td>
-                            <td>Illimité à vie</td>
-                            <td>2 séances hebdomadaires</td>
-                            <td>Certificat disponible</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+      <section>
+        <h2>Nos formules</h2>
+        <table border="1">
+          <caption>
+            Détails des formules disponibles
+          </caption>
+          <thead>
+            <tr>
+              <th scope="row">Année</th>
+              <th scope="row">Formules</th>
+              <th scope="row">Prix</th>
+              <th scope="row">Durée</th>
+              <th scope="row">Accès au contenus</th>
+              <th scope="row">Suivi personnalisé</th>
+              <th scope="row">Certificat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">2026</td>
+              <th scope="col">Essentiel</th>
+              <td>45000</td>
+              <td>6 semaines</td>
+              <td>12 mois</td>
+              <td>Non inclus</td>
+              <td>Attestation de suivi</td>
+            </tr>
+            <tr>
+              <th scope="col">Pro</th>
+              <td>90000</td>
+              <td>3 mois</td>
+              <td>Illimité à vie</td>
+              <td>2 séances mensuelles</td>
+              <td>Certificat disponible</td>
+            </tr>
+            <tr>
+              <th scope="col">Entreprise</th>
+              <td>150000</td>
+              <td>5 mois</td>
+              <td>Illimité à vie</td>
+              <td>2 séances hebdomadaires</td>
+              <td>Certificat disponible</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-            <!--
+      <!--
             ===============================
               ZONE 6: Foires aux questions
             ===============================
             -->
 
-            <section>
-                <details>
-                    <summary>Faut-il connaître PHP pour s'inscrire</summary>
-                    <p>
-                        Non. Le parcours commence depuis les bases de PHP. 
-                        <br>
-                        Si vous maîtrisez déjà ces bases, vous intégrez directement à partir du module POO. 
-                        <br>
-                        Si vous maîtrisez déjà la POO, vous rejoignez directement le module Symfony. 
-                        <br>
-                        Un entretien de positionnement vous permettra de déterminer votre point d'entrée.
-                    </p>
-                </details>
+      <section>
+        <h2>Questions fréquemment posées</h2>
+        <details>
+          <summary>Faut-il connaître PHP pour s'inscrire</summary>
+          <p>
+            Non. Le parcours commence depuis les bases de PHP.
+            <br />
+            Si vous maîtrisez déjà ces bases, vous intégrez directement à partir
+            du module POO.
+            <br />
+            Si vous maîtrisez déjà la POO, vous rejoignez directement le module
+            Symfony.
+            <br />
+            Un entretien de positionnement vous permettra de déterminer votre
+            point d'entrée.
+          </p>
+        </details>
 
-                <details>
-                    <summary>La formation est-elle en présentielle ou en ligne ?</summary>
-                    <p>
-                        La formation est présentielle et en ligne à raison de 2 séances de 4 heures par semaine
-                    </p>
-                </details>
+        <details>
+          <summary>La formation est-elle en présentielle ou en ligne ?</summary>
+          <p>
+            La formation est présentielle et en ligne à raison de 2 séances de 4
+            heures par semaine
+          </p>
+        </details>
 
-                <details>
-                    <summary>Si j'ai déjà suivi les modules Bases PHP et/ou POO ailleurs, est-ce que c'est pris en compte ?</summary>
-                    <p>
-                        Oui, à condition de justifier d'une réelle maîtrise des notions correspondantes.
-                        <br> 
-                        Nous évaluerons votre niveau avant de vous positionner sur la bonne étape du parcours. 
-                        <br>
-                        En revanche, le tarif du parcours reste de 150 000 CFA quel que soit votre point d'entrée. 
-                        <br>
-                        Suivre les modules séparément revient plus cher au total : il est donc plus avantageux de s'inscrire directement au parcours complet si vous visez Symfony
-                    </p>
-                </details>
+        <details>
+          <summary>
+            Si j'ai déjà suivi les modules Bases PHP et/ou POO ailleurs, est-ce
+            que c'est pris en compte ?
+          </summary>
+          <p>
+            Oui, à condition de justifier d'une réelle maîtrise des notions
+            correspondantes.
+            <br />
+            Nous évaluerons votre niveau avant de vous positionner sur la bonne
+            étape du parcours.
+            <br />
+            En revanche, le tarif du parcours reste de 150 000 CFA quel que soit
+            votre point d'entrée.
+            <br />
+            Suivre les modules séparément revient plus cher au total : il est
+            donc plus avantageux de s'inscrire directement au parcours complet
+            si vous visez Symfony
+          </p>
+        </details>
 
-                <details>
-                    <summary>Y'a-t-il un stage à la fin ?</summary>
-                    <p>Oui, le parcours inclut 2 mois de stage en entreprise qui vous permettent de mettre 
-                    en pratique vos compétences dans un environnement professionnel réel.
-                    </p>
-                </details>
+        <details>
+          <summary>Y'a-t-il un stage à la fin ?</summary>
+          <p>
+            Oui, le parcours inclut 2 mois de stage en entreprise qui vous
+            permettent de mettre en pratique vos compétences dans un
+            environnement professionnel réel.
+          </p>
+        </details>
 
-                <details>
-                    <summary>Ce parcours prépare-t-il aussi à Laravel ?</summary>
-                    <p>Indirectement, oui. Les compétences en POO, SOLID, Composer et architecture MVC que vous développez dans ce parcours sont entièrement transférables à Laravel. 
-                        <br>    
-                        Passer à Laravel après ce parcours vous demandera peu d'effort d'adaptation</p>
-                </details>
-            </section>
+        <details>
+          <summary>Ce parcours prépare-t-il aussi à Laravel ?</summary>
+          <p>
+            Indirectement, oui. Les compétences en POO, SOLID, Composer et
+            architecture MVC que vous développez dans ce parcours sont
+            entièrement transférables à Laravel.
+            <br />
+            Passer à Laravel après ce parcours vous demandera peu d'effort
+            d'adaptation
+          </p>
+        </details>
+      </section>
 
-            <!--
+      <!--
             ===============================
                     ZONE 7: Galerie
             ===============================
             -->
 
-            <section>
-                <figure>
-                    <img 
-                    src="/images/variante1.png" alt="Illustration d'une jeune dame entrain de faire du développement avec Symfony"
-                    loading="lazy" width="400" height="300"/>
-                    <figcation>Jeune dame programmant avec Symphony 1</figcation>
-                </figure>
+      <section>
+        <figure>
+          <img
+            src="/images/variante1.png"
+            alt="Illustration d'une jeune dame entrain de faire du développement avec Symfony"
+            loading="lazy"
+            width="400"
+            height="300"
+          />
+          <figcation>Jeune dame programmant avec Symphony 1</figcation>
+        </figure>
 
-                <figure>
-                    <img 
-                    src="/images/variante2.png" alt="Illustration d'une jeune dame entrain de faire du développement avec Symfony"
-                    loading="lazy" width="400" height="300"/>
-                    <figcation>Jeune dame programmant avec Symphony 2</figcation>
-                </figure>
+        <figure>
+          <img
+            src="/images/variante2.png"
+            alt="Illustration d'une jeune dame entrain de faire du développement avec Symfony"
+            loading="lazy"
+            width="400"
+            height="300"
+          />
+          <figcation>Jeune dame programmant avec Symphony 2</figcation>
+        </figure>
 
-                <figure>
-                    <img 
-                    src="/images/variante3.png" alt="Illustration d'une jeune dame entrain de faire du développement avec Symfony"
-                    loading="lazy" width="400" height="300"/>
-                    <figcation>Jeune dame programmant avec Symphony 3</figcation>
-                </figure>
-            </section>
-        </main>
+        <figure>
+          <img
+            src="/images/variante3.png"
+            alt="Illustration d'une jeune dame entrain de faire du développement avec Symfony"
+            loading="lazy"
+            width="400"
+            height="300"
+          />
+          <figcation>Jeune dame programmant avec Symphony 3</figcation>
+        </figure>
+      </section>
+    </main>
 
-        <footer>
-            <!--
+    <footer>
+      <!--
             ==================================
             Pieds de page de index.html repris
             ==================================
             -->
-            <a href="mailto:skillhub@contact.com">Email</a>
-            <a href="tel:+2290197000000">Téléphone</a>
+      <a href="mailto:skillhub@contact.com">Email</a>
+      <a href="tel:+2290197000000">Téléphone</a>
 
-            <ul>
-                <li>Mentions Légales</li>
-                <li>Politiques de Confidentialités</li>
-                <li>CGU</li>
-            </ul>
-            <p>&copy 2026</p>
-        </footer>
-    </body>
-
+      <ul>
+        <li>Mentions Légales</li>
+        <li>Politiques de Confidentialités</li>
+        <li>CGU</li>
+      </ul>
+      <p>&copy 2026</p>
+    </footer>
+  </body>
 </html>
